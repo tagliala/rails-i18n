@@ -74,7 +74,7 @@ ar:
         one: حوالي شهر واحد
         two: حوالي شهرين
         few: حوالي %{count} أشهر
-        many: حوالي %{count} شهرا
+        many: حوالي %{count} شهراً
         other: حوالي %{count} شهر
       about_x_years:
         zero: حوالي صفر سنوات
@@ -131,14 +131,14 @@ ar:
         one: يوم واحد
         two: يومان
         few: "%{count} أيام"
-        many: "%{count} يوما"
+        many: "%{count} يوماً"
         other: "%{count} يوم"
       x_months:
         zero: صفر أشهر
         one: شهر واحد
         two: شهران
         few: "%{count} أشهر"
-        many: "%{count} شهرا"
+        many: "%{count} شهراً"
         other: "%{count} شهر"
     prompts:
       second: ثانية
@@ -180,21 +180,21 @@ ar:
         one: محتوى %{attribute} أطول من اللّازم (الحد الأقصى هو حرف واحد)
         two: محتوى %{attribute} أطول من اللّازم (الحد الأقصى هو حرفان)
         few: محتوى %{attribute} أطول من اللّازم (الحد الأقصى هو %{count} حروف)
-        many: محتوى %{attribute} أطول من اللّازم (الحد الأقصى هو %{count} حرفا)
+        many: محتوى %{attribute} أطول من اللّازم (الحد الأقصى هو %{count} حرفاً)
         other: محتوى %{attribute} أطول من اللّازم (الحد الأقصى هو %{count} حرف)
       too_short:
         zero: محتوى %{attribute} أقصر من اللّازم (الحد الأدنى هو ولا حرف)
         one: محتوى %{attribute} أقصر من اللّازم (الحد الأدنى هو حرف واحد)
         two: محتوى %{attribute} أقصر من اللّازم (الحد الأدنى هو حرفان)
         few: محتوى %{attribute} أقصر من اللّازم (الحد الأدنى هو %{count} حروف)
-        many: محتوى %{attribute} أقصر من اللّازم (الحد الأدنى هو %{count} حرفا)
+        many: محتوى %{attribute} أقصر من اللّازم (الحد الأدنى هو %{count} حرفاً)
         other: محتوى %{attribute} أقصر من اللّازم (الحد الأدنى هو %{count} حرف)
       wrong_length:
         zero: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون ولا حرف)
         one: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون حرف واحد)
         two: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون حرفين)
         few: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون %{count} أحرف)
-        many: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون %{count} حرفا)
+        many: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون %{count} حرفاً)
         other: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون %{count} حرف)
     template:
       body: يُرجى التحقّق من الحقول التّالية:%{attribute}
