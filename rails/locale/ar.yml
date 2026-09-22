@@ -65,21 +65,21 @@ ar:
       about_x_hours:
         zero: حوالي صفر ساعات
         one: حوالي ساعة واحدة
-        two: حوالي ساعتان
+        two: حوالي ساعتين
         few: حوالي %{count} ساعات
         many: حوالي %{count} ساعة
         other: حوالي %{count} ساعة
       about_x_months:
         zero: حوالي صفر أشهر
         one: حوالي شهر واحد
-        two: حوالي شهران
+        two: حوالي شهرين
         few: حوالي %{count} أشهر
-        many: حوالي %{count} شهر
+        many: حوالي %{count} شهرا
         other: حوالي %{count} شهر
       about_x_years:
         zero: حوالي صفر سنوات
         one: حوالي سنة
-        two: حوالي سنتان
+        two: حوالي سنتين
         few: حوالي %{count} سنوات
         many: حوالي %{count} سنة
         other: حوالي %{count} سنة
@@ -94,14 +94,14 @@ ar:
       less_than_x_seconds:
         zero: أقل من صفر ثواني
         one: أقل من ثانية
-        two: أقل من ثانيتان
+        two: أقل من ثانيتين
         few: أقل من %{count} ثوان
         many: أقل من %{count} ثانية
         other: أقل من %{count} ثانية
       less_than_x_minutes:
         zero: أقل من صفر دقائق
         one: أقل من دقيقة
-        two: أقل من دقيقتان
+        two: أقل من دقيقتين
         few: أقل من %{count} دقائق
         many: أقل من %{count} دقيقة
         other: أقل من %{count} دقيقة
@@ -131,14 +131,14 @@ ar:
         one: يوم واحد
         two: يومان
         few: "%{count} أيام"
-        many: "%{count} يوم"
+        many: "%{count} يوما"
         other: "%{count} يوم"
       x_months:
         zero: صفر أشهر
         one: شهر واحد
         two: شهران
         few: "%{count} أشهر"
-        many: "%{count} شهر"
+        many: "%{count} شهرا"
         other: "%{count} شهر"
     prompts:
       second: ثانية
@@ -169,7 +169,7 @@ ar:
       other_than:
         zero: طول %{attribute} يجب ألاّ يكون صفر حرف
         one: طول %{attribute} يجب ألاّ يكون حرفاً واحداً
-        two: طول %{attribute} يجب ألاّ يكون حرفان
+        two: طول %{attribute} يجب ألاّ يكون حرفين
         few: طول %{attribute} يجب ألاّ يكون %{count} أحرف
         many: طول %{attribute} يجب ألاّ يكون %{count} حرفاً
         other: طول %{attribute} يجب ألاّ يكون %{count} حرفاً
@@ -180,28 +180,28 @@ ar:
         one: محتوى %{attribute} أطول من اللّازم (الحد الأقصى هو حرف واحد)
         two: محتوى %{attribute} أطول من اللّازم (الحد الأقصى هو حرفان)
         few: محتوى %{attribute} أطول من اللّازم (الحد الأقصى هو %{count} حروف)
-        many: محتوى %{attribute} أطول من اللّازم (الحد الأقصى هو %{count} حرف)
+        many: محتوى %{attribute} أطول من اللّازم (الحد الأقصى هو %{count} حرفا)
         other: محتوى %{attribute} أطول من اللّازم (الحد الأقصى هو %{count} حرف)
       too_short:
         zero: محتوى %{attribute} أقصر من اللّازم (الحد الأدنى هو ولا حرف)
         one: محتوى %{attribute} أقصر من اللّازم (الحد الأدنى هو حرف واحد)
         two: محتوى %{attribute} أقصر من اللّازم (الحد الأدنى هو حرفان)
         few: محتوى %{attribute} أقصر من اللّازم (الحد الأدنى هو %{count} حروف)
-        many: محتوى %{attribute} أقصر من اللّازم (الحد الأدنى هو %{count} حرف)
+        many: محتوى %{attribute} أقصر من اللّازم (الحد الأدنى هو %{count} حرفا)
         other: محتوى %{attribute} أقصر من اللّازم (الحد الأدنى هو %{count} حرف)
       wrong_length:
         zero: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون ولا حرف)
         one: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون حرف واحد)
-        two: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون حرفان)
+        two: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون حرفين)
         few: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون %{count} أحرف)
-        many: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون %{count} حرف)
+        many: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون %{count} حرفا)
         other: طول %{attribute} غير مطابق للحد المطلوب (يجب أن يكون %{count} حرف)
     template:
       body: يُرجى التحقّق من الحقول التّالية:%{attribute}
       header:
         zero: ليس بالامكان حفظ %{model} لسبب ولا خطأ.
         one: ليس بالامكان حفظ %{model} لسبب وجود خطأ واحد.
-        two: ليس بالامكان حفظ %{model} لسبب وجود خطئان.
+        two: ليس بالامكان حفظ %{model} لسبب وجود خطأين.
         few: ليس بالامكان حفظ %{model} لسبب وجود %{count} أخطاء.
         many: ليس بالامكان حفظ %{model} لسبب وجود %{count} خطأ.
         other: ليس بالامكان حفظ %{model} لسبب وجود %{count} خطأ.

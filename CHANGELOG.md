@@ -1,5 +1,6 @@
 ## Unreleased
 
+- Arabic: Correct counted nouns and dual endings in duration and validation messages
 - Fix incorrect `ja.number.currency.format.negative_format` definition
 - Fix constant resolution failures when rules are evaluated in another scope
 - Make Arabic and Lithuanian pluralization faster
